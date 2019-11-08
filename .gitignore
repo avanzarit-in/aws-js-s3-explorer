@@ -1,0 +1,16 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Local .terraform directories
+terraform/.terraform/*
+
+terraform/.terraform/plugins/**
+# .tfstate files
+terraform/*.tfstate
+terraform/*.tfstate.*
+
+*.zip
+node_modules/
+output.txt
